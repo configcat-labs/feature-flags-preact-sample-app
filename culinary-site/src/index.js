@@ -41,7 +41,9 @@ export default function App() {
     );
   };
 
-  let configCatClient = configcat.createClient("##YOUR-SDK-KEY##");
+  let configCatClient = configcat.createClient(
+    "8z7aCC-DZEaPwUCnitpksg/TbJ8oi7sMUynCb8MxtTUDw"
+  );
 
   var userObject = {
     identifier: "1234", // Unique identifier is required.
@@ -63,13 +65,14 @@ export default function App() {
     marginRight: "auto",
     width: "50%",
     justifyContent: "center",
-    backgroundColor: "lightgrey",
+    backgroundColor: "#FFE9EC",
   };
 
   const buttonStyle = {
-    backgroundColor: "darkgreen",
+    backgroundColor: "#967BB6",
     color: "white",
     fontSize: "20px",
+    border: "none",
   };
 
   const textStyle = {
