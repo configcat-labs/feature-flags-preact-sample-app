@@ -41,14 +41,12 @@ export default function App() {
     );
   };
 
-  let configCatClient = configcat.createClient(
-    "8z7aCC-DZEaPwUCnitpksg/TbJ8oi7sMUynCb8MxtTUDw"
-  );
+  let configCatClient = configcat.createClient("YOUR-SDK-KEY");
 
   var userObject = {
     identifier: "1234", // Unique identifier is required.
     custom: {
-      SubscriptionType: "sugarFree",
+      SubscriptionType: "normal",
     },
   };
 
